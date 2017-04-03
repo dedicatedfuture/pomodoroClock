@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodor Clock</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="pomodoro.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  	<script src="pomodoro.js"></script>
+</head>
+<body>
+
+<h1>Pomodoro Clock</h1>
+
+<div class="settings">
+
+	<p>Session Length</p>
+	<button id="addSession">+</button>
+	<input class="display" id="clockLength" value="25"></input>
+	
+	<button id="subtractSession">-</button>
+
+	<p>Break Length</p>
+	<button id="addBreak">+</button>
+	<input class="display" id="breakLength" value="5"></input>
+	
+	<button id="subtractBreak">-</button>
+</div>
+
+<div class="clock">
+	
+		<div class="display" id="clockDisplay">25</div>
+	<button id="start">Start</button>
+	<button id="stop">Stop</button>
+
+</div>
+
+</body>
+</html>
